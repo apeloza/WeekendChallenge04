@@ -4,18 +4,23 @@
     <meta charset="utf-8">
     <title>Weekend Challenge 04</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="../assets/styles/main.css" media="screen" title="no title" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet" type="text/css">
+    <link id="stylesheet" rel="stylesheet" href="../assets/styles/main.css" media="screen" title="no title" charset="utf-8">
     <script src="../assets/vendors/jquery.min.js"></script>
     <script src="../scripts/clientapp.js"></script>
   </head>
   <body>
+    <div class="container">
     <h1>Weekend Challenge 04: To-Do List</h1>
     <form id="taskform">
       <label for="name">Task Name:</label>
       <input type="text"  id="name" name="name" placeholder="Peachpuff" />
+      <p></p>
       <label for="description">Task Description:</label>
-      <textarea name="description" id="description" placeholder="Paint the world in #FFDAB9."></textarea>
-      <button id="submit">Submit!</button>
+      <textarea name="description" id="description" class="descriptionbox" placeholder="Paint the world in #FFDAB9."></textarea>
+      <button id="submit" class="submit">Submit!</button>
     </form>
     <h2>Incomplete Tasks</h2>
     <table id="todo-table-incomplete">
@@ -45,5 +50,6 @@
       </tbody>
 
     </table>
+  </div>
   </body>
 </html>

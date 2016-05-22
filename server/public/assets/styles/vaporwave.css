@@ -1,0 +1,68 @@
+body {
+  background-image: url('../images/vaporwavebg.png');
+  background-size: 800px;
+  color: dodgerblue;
+font-size: 20px;
+font-family: 'Megrim', cursive;
+cursor: url(../images/cursor.png), auto;
+}
+h1, h2, label, th {
+  text-align: center;
+  cursor: url(../images/cursor.png), auto;
+  animation:rainbow 1s infinite;
+  }
+  @keyframes rainbow {
+  0% {color: #ff0000;}
+  10% {color: #ff8000;}
+  20% {color: #ffff00;}
+  30% {color: #80ff00;}
+  40% {color: #00ff00;}
+  50% {color: #00ff80;}
+  60% {color: #00ffff;}
+  70% {color: #0080ff;}
+  80% {color: #0000ff;}
+  90% {color: #8000ff;}
+  100% {color: #ff0080;}
+  }
+input, label, textarea, .submit, .delete, .update{
+  display: block;
+  margin: auto;
+  text-align: center;
+  cursor: url(../images/cursor.png), auto;
+}
+
+table {
+  border-collapse:collapse;
+}
+.incomplete {
+  background-color: hotpink;
+}
+
+.complete {
+  animation:rainbow2 1s infinite;
+  }
+  @keyframes rainbow2 {
+  0% {background-color: #ff0000;}
+  10% {background-color: #ff8000;}
+  20% {background-color: #ffff00;}
+  30% {background-color: #80ff00;}
+  40% {background-color: #00ff00;}
+  50% {background-color: #00ff80;}
+  60% {background-color: #00ffff;}
+  70% {background-color: #0080ff;}
+  80% {background-color: #0000ff;}
+  90% {background-color: #8000ff;}
+  100% {background-color: #ff0080;}
+  }
+
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.descriptionbox {
+  width:300px;
+  height:100px;
+  background-color: peachpuff;
+}

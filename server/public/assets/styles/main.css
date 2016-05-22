@@ -1,7 +1,40 @@
+body {
+  background-image: url('../images/todolistbg.jpg');
+  color: white;
+font-size: 20px;
+font-family: 'Poiret One', cursive;
+}
+h1, h2, label, th {
+  font-family: 'Grand Hotel', cursive;
+  text-align: center;
+}
+input, label, textarea, .submit{
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+table {
+  border-collapse:collapse;
+}
 .incomplete {
-  background-color: gray;
+  background-color: grey;
+  background-color: rgba(145, 145, 145, 0.68);
 }
 
 .complete {
   background-color: green;
+  background-color: rgba(89, 201, 110, 0.68);
+
+}
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.descriptionbox {
+  width:300px;
+  height:100px;
+  background-color: peachpuff;
 }
