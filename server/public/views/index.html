@@ -17,7 +17,8 @@
       <textarea name="description" id="description" placeholder="Paint the world in #FFDAB9."></textarea>
       <button id="submit">Submit!</button>
     </form>
-    <table id="todo-table">
+    <h2>Incomplete Tasks</h2>
+    <table id="todo-table-incomplete">
         <thead>
           <tr>
         <th>Name</th>
@@ -25,7 +26,21 @@
         <th>Finished?</th>
       </tr>
     </thead>
-      <tbody id = "todo-items">
+      <tbody id = "todo-items-incomplete" class = "todo-items">
+
+      </tbody>
+
+    </table>
+    <h2>Completed Tasks</h2>
+    <table id="todo-table-complete">
+        <thead>
+          <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Finished?</th>
+      </tr>
+    </thead>
+      <tbody id = "todo-items-complete" class="todo-items">
 
       </tbody>
 
